@@ -1,0 +1,52 @@
+Does not support 16bit only 32 or 24 not sure which but only 1, does not support RLE...
+
+16 byte Header
+
+0x1		byte	01		01 = Indexed, 02 = RGB (???)
+0x2		byte	00		00 = Indexed, 40 = RGB (???)
+0x3		byte	03		???
+0x4, 5	short			width
+0x7, 8	short			height
+0x9		byte	00
+0xA		byte	00
+0xB		byte	00 or FF
+0xC		byte	FF
+0xD		byte	FF
+0xF		byte	FF
+
+
+
+
+
+struct{
+	char byteA;		// Either 1 (No Alpha?) or 2 (Has Alpha?)
+	char byteB;		// Always 0x00
+	char byteC;		// RGB Format: 0=332, 1=444, 2=555, 3=565, 4=656(?), 5=888
+	char byteD;		// Alpha Bit Depth? 00, 20, 40
+	short width;
+	char byteE;
+	short height;
+	char byteF;
+	char byteG;
+	char byteH;		// 1st Byte of Transparent Color or FF (No Alpha) ???
+	char byteI;		// 2nd Byte of Transparent Color or FF (No Alpha) ???
+	char byteJ;		// FF (No Alpha) or 00 (Alpha) ???
+	char byteK;		// FF (No Alpha) or 00 (Alpha) ???
+} StexHeader;
+
+struct{
+	char  identsize;          // size of ID field that follows 18 byte header (0 usually)
+	char  colourmaptype;      // type of colour map 0=none, 1=has palette
+	char  imagetype;          // type of image 0=none,1=indexed,2=rgb,3=grey,+8=rle packed
+
+	short colourmapstart;     // first colour map entry in palette
+	short colourmaplength;    // number of colours in palette
+	char  colourmapbits;      // number of bits per palette entry 15,16,24,32
+
+	short xstart;             // image x origin
+	short ystart;             // image y origin
+	short width;              // image width in pixels
+	short height;             // image height in pixels
+	char  bits;               // image bits per pixel 8,16,24,32
+	char  descriptor;         // image descriptor bits (vh flip bits)
+} TGAHeader;

@@ -1,0 +1,174 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = ACCF495E0F732129008FB65C /* S3DTEX Viewer */;
+		activeTarget = 8D1107260486CEB800E47090 /* S3DTEX Viewer */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* S3DTEX Viewer */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = ACCF496A0F732147008FB65C /* Code sense */;
+		executables = (
+			ACCF495E0F732129008FB65C /* S3DTEX Viewer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					493,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					453,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 265583694;
+			PBXWorkspaceStateSaveDate = 265583694;
+		};
+		perUserProjectItems = {
+			AC7D97210FD48C540085BAC6 /* PBXTextBookmark */ = AC7D97210FD48C540085BAC6 /* PBXTextBookmark */;
+			ACB066BB0F7686AF00FA52F5 /* PBXBookmark */ = ACB066BB0F7686AF00FA52F5 /* PBXBookmark */;
+			ACB066BD0F7686AF00FA52F5 /* PBXTextBookmark */ = ACB066BD0F7686AF00FA52F5 /* PBXTextBookmark */;
+			ACB066BE0F7686AF00FA52F5 /* PBXBookmark */ = ACB066BE0F7686AF00FA52F5 /* PBXBookmark */;
+			ACB066CF0F76890D00FA52F5 /* PBXTextBookmark */ = ACB066CF0F76890D00FA52F5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = ACCF49690F732147008FB65C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* S3DTEX Viewer */ = {
+		activeExec = 0;
+		executables = (
+			ACCF495E0F732129008FB65C /* S3DTEX Viewer */,
+		);
+	};
+	AC7D97210FD48C540085BAC6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1028FA30B88D99400FDBDC0 /* GUIControl.m */;
+		name = "GUIControl.m: 200";
+		rLen = 5;
+		rLoc = 6993;
+		rType = 0;
+		vrLen = 758;
+		vrLoc = 6240;
+	};
+	ACB066BB0F7686AF00FA52F5 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = ACB066AB0F76833E00FA52F5 /* RGB.icns */;
+	};
+	ACB066BD0F7686AF00FA52F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1028FA30B88D99400FDBDC0 /* GUIControl.m */;
+		name = "GUIControl.m: 129";
+		rLen = 0;
+		rLoc = 3202;
+		rType = 0;
+		vrLen = 860;
+		vrLoc = 2769;
+	};
+	ACB066BE0F7686AF00FA52F5 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = ACB066AB0F76833E00FA52F5 /* RGB.icns */;
+	};
+	ACB066CF0F76890D00FA52F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1028FA30B88D99400FDBDC0 /* GUIControl.m */;
+		name = "GUIControl.m: 200";
+		rLen = 5;
+		rLoc = 6993;
+		rType = 0;
+		vrLen = 757;
+		vrLoc = 6241;
+	};
+	ACCF495E0F732129008FB65C /* S3DTEX Viewer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "S3DTEX Viewer";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	ACCF49690F732147008FB65C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	ACCF496A0F732147008FB65C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F1028FA20B88D99400FDBDC0 /* GUIControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {874, 686}}";
+			sepNavSelRange = "{1124, 0}";
+			sepNavVisRange = "{0, 1280}";
+			sepNavWindowFrame = "{{335, 16}, {933, 761}}";
+		};
+	};
+	F1028FA30B88D99400FDBDC0 /* GUIControl.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {948, 2884}}";
+			sepNavSelRange = "{6993, 5}";
+			sepNavVisRange = "{6240, 758}";
+			sepNavWindowFrame = "{{8, 9}, {933, 761}}";
+		};
+	};
+}
